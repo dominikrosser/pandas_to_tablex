@@ -5,6 +5,7 @@ The tool uses pandas.to_latex() to create a latex document. Then it calls pandoc
 
 # Installation
 - Install pandoc [https://pandoc.org/installing.html]
+- Copy the file pandas_to_tablex.py to next to your project or clone this repository.
 - `pip install pandas`
 
 # Usage
