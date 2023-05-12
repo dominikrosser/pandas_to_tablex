@@ -3,6 +3,8 @@ Convert a (simple) pandas [https://pandas.pydata.org/] dataframe with multicolum
 
 The tool uses pandas.to_latex() to create a latex document. Then it calls pandoc to convert the document to typst, and then it does some post processing by replacing '#table' with '#tablex' and inserting the multicolumns with some regular expressions and search/replace.
 
+It only works for multicolumn cells that span exactly two columns.
+
 # Installation
 - Install pandoc [https://pandoc.org/installing.html]
 - Copy the file pandas_to_tablex.py to next to your project or clone this repository.
